@@ -1,12 +1,3 @@
-# free_ver :                            매핑서포터 + 중복단어 제거 추가한 버전
-# individual_ver :                      개별 tmg number를 입력한 버전. 카테고리 분류 (/,&,및) 추가함.
-# individual_ver :                      로그인 실패 시 크롬을 꺼지도록 하였음. 다른 사람에게 프로그램을 빌려줄 때 아이디, 비번을 공개하게 하는 부담을 지게 됨. 허나 아이디,비번을 공개한다면 다른 아이디 사용가능한 허점이 존재.
-# fortified_individual_ver :            불러오기 시 URL을 가져와 tmg number을 검사하여 맞는 번호가 아닐 시 프로그램 종료 기능 추가 버전. 이제 아이디를 빌려줄 수 없게 되었음. tmg 번호 부분을 Label에서 line edit로 바꿈.
-# hide_sellerlife_mapping_ver :         셀러라이프 창이 안뜨도록 변화시킴. label에 셀러라이프라는 단어 제거.
-# license_ver :                         라이센스 코드를 입력해야지 실행되도록 만든 버전.
-# add_search_ver :                      마켓카테고리 전체검색 기능을 추가한 버전.
-# Version 1.0.0 :                       라이센스 인증시 오류가 있어 오류 수정하고 Class밖에서 라이센스를 인증하고 진입하는 방식으로 변경. 중복단어 기능에 단어 앞뒤공백제거 기능 추가.라이센스창에 구매링크 추가.
-
 from unicodedata import category
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
